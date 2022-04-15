@@ -4,4 +4,47 @@ body {
 
 h1 {
   text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px #2c098d;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.container {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #000000;
+  font-size: large;
+}
+footer {
+  text-align:center;
+  color: rgb(255, 255, 255);
+}
+.col {
+  text-align: center;
+}
+.nobullets {
+  list-style-type: none;
+}
+.navigaatio {
+  background-color: rgb(57, 61, 65);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  float: bottom; 
+  height: 500px;
+  font-size: 30px;
+  text-align: center;
+}
+a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 1.4s linear;
+}
+a:hover {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+  background: rgb(216, 20, 190);
 }
